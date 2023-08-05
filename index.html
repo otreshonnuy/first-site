@@ -18,18 +18,18 @@
             </button>
             <ul class="navbar__elements">
                <li>
-                  <a class="navbar__element active" href="index.html">Home</a>
+                  <button class="navbar__element-active">Home</button>
                </li>
                <li>
-                  <a class="navbar__element" href="../ToDo-List/index.html">ToDo List</a>
+                  <button class="navbar__element">ToDo List</button>
                </li>
             </ul>
             <ul class="navbar__show hidden">
                <li>
-                  <a class="navbar__element active" href="index.html">Home</a>
+                  <button class="navbar__element-active">Home</button>
                </li>
                <li>
-                  <a class="navbar__element" href="../ToDo-List/index.html">ToDo List</a>
+                  <button class="navbar__element">ToDo List</button>
                </li>
             </ul>
          </div>
@@ -49,6 +49,44 @@
                </a>
             </div>
          </div>
+      </div>
+      <div class="planner hidden">
+         <table>
+            <thead>
+               <tr>
+                  <th colspan="4" class="planner__day-title">Понеділок</th>
+               </tr>
+            </thead>
+            <thead>
+               <tr>
+                  <th></th>
+                  <th>Час</th>
+                  <th>Зміст</th>
+                  <th class="planner__table-done">Виконано</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <td class="planner__table-pos">1.</td>
+                  <td class="planner__table-timer-block">
+                     <input class="planner__table-timer" type="time" />
+                  </td>
+                  <td>
+                     <textarea
+                        class="planner__table-content"
+                        type="text"
+                        maxlength="140"
+                        placeholder="Максимальна кількість символів 140"
+                     ></textarea>
+                  </td>
+                  <td>
+                     <button class="planner__table-ok-button">
+                        <img src="icons/ok.png" alt='"done" marker' />
+                     </button>
+                  </td>
+               </tr>
+            </tbody>
+         </table>
       </div>
    </body>
 </html>
