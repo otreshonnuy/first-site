@@ -330,6 +330,9 @@ td {
   overflow-wrap: break-word;
   resize: none;
 }
+.planner__table-ok-button {
+  background-color: transparent;
+}
 
 .ok-style {
   background-color: rgb(55, 238, 49);

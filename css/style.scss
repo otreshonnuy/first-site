@@ -248,6 +248,10 @@ td {
       overflow-wrap: break-word;
       resize: none;
    }
+
+   &__table-ok-button {
+      background-color: transparent;
+   }
 }
 
 .ok-style {
