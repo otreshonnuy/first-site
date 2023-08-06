@@ -54,7 +54,14 @@
          <table>
             <thead>
                <tr>
-                  <th colspan="4" class="planner__day-title">Понеділок</th>
+                  <th colspan="4">
+                     <input
+                        class="planner__table-day-title"
+                        type="text"
+                        maxlength="30"
+                        placeholder="Понеділок 01.01.0001 рік"
+                     />
+                  </th>
                </tr>
             </thead>
             <thead>
@@ -74,7 +81,6 @@
                   <td>
                      <textarea
                         class="planner__table-content"
-                        type="text"
                         maxlength="140"
                         placeholder="Максимальна кількість символів 140"
                      ></textarea>
@@ -84,6 +90,11 @@
                         <img src="icons/ok.png" alt='"done" marker' />
                      </button>
                   </td>
+               </tr>
+               <tr id="buttonRow">
+                  <th colspan="4">
+                     <button id="taskAdd">Додати задачу</button>
+                  </th>
                </tr>
             </tbody>
          </table>

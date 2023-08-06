@@ -287,7 +287,6 @@ td {
 .planner {
   display: flex;
   flex-wrap: wrap;
-  text-align: center;
   justify-content: center;
   margin: 3rem auto;
   width: 100%;
@@ -295,10 +294,11 @@ td {
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
-.planner__day-title {
+.planner__table-day-title {
   text-transform: uppercase;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  width: 100%;
 }
 .planner__table-done {
   width: 2rem;
@@ -311,7 +311,7 @@ td {
 }
 .planner__table-timer {
   text-align: center;
-  font-size: 2rem;
+  font-size: 1rem;
   max-width: 100%;
   background-color: transparent;
 }
@@ -331,6 +331,8 @@ td {
   resize: none;
 }
 .planner__table-ok-button {
+  width: 2rem;
+  max-width: 100%;
   background-color: transparent;
 }
 
